@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class Ed_continuada extends Sede {
     
     private String nombre_curso_pop;
-    public ArrayList<Programa> programas;
     
     public Ed_continuada(String nombre, String direccion, String telefono, double Area) {
         super(nombre, direccion, telefono, Area);
@@ -23,7 +22,7 @@ public class Ed_continuada extends Sede {
 
     @Override
     public String darInformacion() {
-        String x= "Nombre:"+this.nombre +"direccion:"+this.direccion+"telefono:"+this.telefono +"curso popular:"+this.nombre_curso_pop;
+        String x= "Nombre: "+this.nombre +" direccion: "+this.direccion+" telefono: "+this.telefono +" curso popular: "+this.nombre_curso_pop;
         return x;
     }
 

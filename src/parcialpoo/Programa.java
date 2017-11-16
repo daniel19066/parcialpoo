@@ -17,6 +17,10 @@ public class Programa {
         this.Nombre = Nombre;
         this.Descripcion = Descripcion;
     }
+    
+    public String mostrar_inf(){
+        return this.Nombre+": "+" "+this.Descripcion;
+    }
 
     public String getNombre() {
         return Nombre;

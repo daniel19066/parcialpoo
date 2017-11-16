@@ -13,7 +13,6 @@ import java.util.ArrayList;
  */
 public class Profesional extends Sede{
     private int n_prog_calidad;
-    public ArrayList<Programa> programas;
 
     public Profesional(String nombre, String direccion, String telefono, double Area) {
         super(nombre, direccion, telefono, Area);
@@ -23,7 +22,7 @@ public class Profesional extends Sede{
 
     @Override
     public String darInformacion() {
-        String x= "Nombre:"+this.nombre +"direccion:"+this.direccion+"telefono:"+this.telefono +"programas de calidad:"+this.n_prog_calidad;
+        String x= " Nombre: "+this.nombre +" direccion: "+this.direccion+" telefono: "+this.telefono +" programas de calidad: "+this.n_prog_calidad;
         return x;
     }
     

@@ -5,6 +5,8 @@
  */
 package parcialpoo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Estudiante
@@ -14,6 +16,7 @@ public abstract class Sede {
     protected String direccion;
     protected String telefono;
     protected double Area;
+    protected ArrayList<Programa> programas;
 
     public Sede(String nombre, String direccion, String telefono, double Area) {
         this.nombre = nombre;
